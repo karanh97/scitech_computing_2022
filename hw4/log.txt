@@ -1,0 +1,19 @@
+login2.frontera(1183)$ make
+icpc -c aux1.cxx aux.h
+icpc -c aux2.cxx aux.h
+ar cr libaux.a aux1.o aux2.o
+icpc -o mainprog main.cxx libaux.a
+
+login2.frontera(1187)$ ./mainprog
+Hi!
+Goodbye!
+
+# modified aux1() to output "Hello!"
+
+icpc -c aux1.cxx aux.h
+ar cr libaux.a aux1.o aux2.o
+icpc -o mainprog main.cxx libaux.a
+
+login2.frontera(1191)$ ./mainprog
+Hello!
+Goodbye!
