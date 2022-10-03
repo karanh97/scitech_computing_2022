@@ -1,3 +1,8 @@
+# Jaden Wood (jcw3976)
+# Lydia Wharton (ltw554)
+# Karan Hiranandani (kh37789)
+
+
 OBJS = aux1.o aux2.o
 CXX = icpc
 
